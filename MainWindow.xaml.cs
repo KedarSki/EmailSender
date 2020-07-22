@@ -17,9 +17,7 @@ using System.Windows.Shapes;
 
 namespace WpfApp2
 {
-    /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         private KeyBoardHook _listener;
@@ -60,7 +58,7 @@ namespace WpfApp2
 
             _listener.HookKeyboard();
 
-            // P.D. Przeanalizować kod
+           
         }
 
         void _listener_OnKeyPressed(object sender, KeyPressedArgs e)

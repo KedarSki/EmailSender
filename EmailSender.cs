@@ -14,13 +14,6 @@ namespace WpfApp2
         string from = "radoslaw.zamojski@gmail.com";
         public string to = " ";
         public string body = " ";
-    
-
-       /* public void setBody()
-        {
-            FileOperation fileText = new FileOperation();
-             body = fileText.getFile();
-        }*/
 
         public void emailsend ()
         {

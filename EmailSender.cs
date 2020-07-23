@@ -28,7 +28,7 @@ namespace WpfApp2
                 mail.Body = body;
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("radoslaw.zamojski@gmail.com", "");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("email@gmail.com", "Password");
                 SmtpServer.EnableSsl = true;
                 
                 SmtpServer.Send(mail);
